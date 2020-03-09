@@ -1,4 +1,38 @@
 ---
 label: story
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+- name: genre
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - personal narrative
+    - how-to
+    - story
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Genre
+- name: metadata
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Metadata
