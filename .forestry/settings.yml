@@ -10,6 +10,13 @@ sections:
   path: content/about/info.md
   label: Info Page
 - type: directory
+  path: ''
+  label: Stories
+  create: all
+  match: "**/*"
+  templates:
+  - story
+- type: directory
   path: content/blog-posts
   label: Blog posts
   create: all
