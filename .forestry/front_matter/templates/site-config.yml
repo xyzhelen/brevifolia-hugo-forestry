@@ -21,3 +21,4 @@ fields:
   hidden: true
 pages:
 - config.toml
+- config.toml

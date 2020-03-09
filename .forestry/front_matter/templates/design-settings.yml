@@ -19,3 +19,4 @@ fields:
   description: Enter text color for info page
 pages:
 - themes/tale-theme/data/Settings.toml
+- themes/tale-theme/data/Settings.toml

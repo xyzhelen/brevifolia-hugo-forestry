@@ -36,3 +36,5 @@ fields:
     schema:
       format: markdown
   label: Metadata
+pages:
+- raven.md
